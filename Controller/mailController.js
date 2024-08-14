@@ -13,7 +13,7 @@ const sendMail = (req,res)=>{
       
       var mailOptions = {
         from: 'dharaneedharanchinnusamy@gmail.com',
-        to: 'aalansasonsingarayana@gmail.com',
+        to: 'aalansasonsingarayan@gmail.com',
         subject: 'Message From Portfolio',
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
       };
