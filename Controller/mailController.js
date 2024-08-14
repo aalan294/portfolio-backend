@@ -6,13 +6,13 @@ const sendMail = (req,res)=>{
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'aalansasonsingarayan@gmail.com',
-          pass: 'opid nkqb fquq bkxr'
+          user: 'dharaneedharanchinnusamy@gmail.com',
+          pass: 'vmtxahsdzeenscxp'
         }
       });
       
       var mailOptions = {
-        from: 'aalansasonsingarayan@gmail.com',
+        from: 'dharaneedharanchinnusamy@gmail.com',
         to: 'aalansasonsingarayana@gmail.com',
         subject: 'Message From Portfolio',
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
