@@ -1,7 +1,7 @@
 const path = require('path')
 const downloadResume = (req,res)=>{
     fileName = "Aalan sason singarayan's Resume.pdf"
-    filePath = path.join(__dirname,'../files/Resume - Google Docs.pdf');
+    filePath = path.join(__dirname,'../files/Updated Resume ATS.pdf');
     res.setHeader('Content-Type', 'application/pdf');
     res.setHeader('Content-Disposition', `attachment; filename=${fileName}`);
     res.download(filePath,fileName,(err)=>{
